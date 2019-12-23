@@ -38,3 +38,13 @@ function postLiked() {
     }
   }
 }
+
+//comments function..
+function addComment(id) {
+  if (id.value.length > 0) {
+    var addEventName = id.value;
+    document.getElementById('addEventNames').innerHTML += '<p id="comment">' + addEventName + '</p>';
+    var a = document.getElementById('userComments');
+    a.value = a.defaultValue;
+  }
+}

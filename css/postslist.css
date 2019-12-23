@@ -77,3 +77,22 @@
     line-height: 1.2em;
 }
 
+/* main body */
+body {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    margin: 0 !important;
+    color: #fff;
+    background-color: #ffeedd;
+    background-size: 2000% 2000%;
+}
+
+/* main container for postlist page div */
+.allPostsContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+

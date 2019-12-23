@@ -38,3 +38,40 @@ body{
     font-size: 14px;
     margin-left: 10px
 }
+
+/* post buttons position*/
+.postButtons{
+  display: flex;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+/* textarea box padding */
+textarea{
+  margin-top: 10px;
+}
+
+/* create post btn */
+.create-btn{
+  margin-top: 10px;
+  background-color: green;
+  font-size: 14px;
+  width:100px;
+  color: white;
+  padding: 10px;
+  align-self: center;
+  font-family: Abel;
+}
+
+/* post modal body style */
+.post-modal-content{
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  height: 70%;
+}
+

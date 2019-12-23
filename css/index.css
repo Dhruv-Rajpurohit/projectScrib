@@ -5,7 +5,7 @@ html{
 
 /* index page body style */
 body{
-   background: url('background.jpg');
+   background: url('/projectScrib/images/background.jpg');
    background-repeat: no-repeat;
    background-attachment: fixed;
    background-position: center center;

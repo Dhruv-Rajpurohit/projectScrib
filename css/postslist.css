@@ -48,3 +48,32 @@
     border-radius: 0 15px 15px 0;
     padding: 0 20px;      
 }
+/* post title */
+.post-title{
+    font-family: 'Itim', cursive;
+    font-weight: bold;
+    color: #2b312b;
+    font-size: 20px;
+    height: 25px;
+}
+
+/* post style necessary changes */
+.post-more {
+    float: right;
+    cursor: pointer;
+    font-size: 18px;
+    margin-right: 0 !important;
+    padding-right: 0 !important;
+    padding-bottom: 10px;
+    font-size: 30px;
+}
+
+/* post body show 3 lines then ... */
+.post-desc{
+    height: 85px;
+    margin-bottom: 0 !important;
+    overflow: hidden;
+    max-height: 3.6em; /* (Number of lines you want visible) * (line-height) */
+    line-height: 1.2em;
+}
+

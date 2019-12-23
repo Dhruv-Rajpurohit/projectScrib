@@ -1,0 +1,28 @@
+/* all posts to be displayed */
+.post1, .post2, .post3 , .post4, .post5 {
+    position: relative;
+    width: 40%;
+    background: #fff;
+    margin: 10px;
+    border-radius: 15px;
+    overflow: hidden;
+    
+
+}
+
+/* all posts will have hover property -> shadow */
+.post1:hover{
+    box-shadow: 10px 10px 5px grey;
+}
+.post2:hover{
+    box-shadow: 10px 10px 5px grey;
+}
+.post3:hover{
+    box-shadow: 10px 10px 5px grey;
+}
+.post4:hover{
+    box-shadow: 10px 10px 5px grey;
+}
+.post5:hover{
+    box-shadow: 10px 10px 5px grey;
+}

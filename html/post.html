@@ -28,7 +28,6 @@
     <!-- Insert code for Sign In modal here -->
     <div class="modal" id="signin-modal">
         <div class="modal-content">
-
             <div class="modal-head">
                 <span onclick="hideSignInModal()" id="close" class="close">&times;</span>
                 <h2 class="modal-title">Welcome Back!</h2>
@@ -43,7 +42,6 @@
                 <input type="password" id="password" placeholder="Enter your password" required>
                 <button type="submit" onclick="signin(username, password)" class="signin-btn">Sign In</button>
             </form>
-
             <p class=bottom-banner>Not a member?
                 <span onclick="hideSignInModal();showSignUpModal()" class=signup>Sign Up</span>
             </p>
@@ -53,7 +51,6 @@
     <!-- Insert code for Sign Up modal here -->
     <div class="modal" id="signup-modal">
         <div class="modal-content">
-
             <div class="modal-head">
                 <span onclick="hideSignUpModal()" id="close" class="close">&times;</span>
                 <h2 class="modal-title">Get Started</h2>
@@ -73,9 +70,9 @@
                 <button type="submit" onclick="signup(firstName,lastName, email, password, mobile)"
                     class="signin-btn">Sign up</button>
             </form>
-
         </div>
     </div>
+
 
     <!-- Insert code for Like button, Comment button, Comment box here-->
     <div class="blogContent">
@@ -84,7 +81,6 @@
         </div>
 
         <div class="blogAuthor">
-
             <!-- Insert code for Edit/Save button and  -->
             <button id="editButton" class="editSaveBtn" onclick="editContent()">Edit&nbsp;<i
                     class="fa fa-pencil-square-o"></i></button>
@@ -121,7 +117,6 @@
 
         </div>
     </div>
-
     <!-- Place all Javascript for header in this file -->
     <script src="..\js\post.js" defer></script>
     <script src="..\js\header.js">

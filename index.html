@@ -61,6 +61,32 @@
     </div>
 
   </div>
+  
+  <!-- Insert code for Sign Up modal here -->
+  <div>
+    <div class="modal" id="signup-modal">
+      <div class="modal-content">
+
+        <div class="modal-head">
+          <span onclick="hideSignUpModal()" id="close" class="close">&times;</span>
+          <h2 class="modal-title">Get Started</h2>
+        </div>
+        <hr>
+        <form>
+          <label for="fullname" class="label-text">Name</label>
+          <input type="text" id="fullname" placeholder="Enter your name" required>
+          <label for="username" class="label-text">Username</label>
+          <input type="text" id="username" placeholder="Enter your username" required>
+          <label for="password" class="label-text">Password</label>
+          <input type="password" id="password" placeholder="Enter your password" required>
+          <label for="confirmpassword" class="label-text">Confirm Password</label>
+          <input type="password" id="confirm_password" placeholder="Re-enter your password" required>
+          <button type="submit" onclick="signup(firstName,lastName, email, password, mobile)" class="signin-btn">Sign
+            up</button>
+        </form>
+      </div>
+    </div>
+  </div>
   <!-- Place all Javascript for header in this file -->
   <script src="js\header.js"></script>
   <!-- Place all Javascript for rest of the elements in this file -->
